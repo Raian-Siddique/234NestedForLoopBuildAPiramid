@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="10sp"
+    >
+    <!--    <EditText-->
+    <!--        android:id="@+id/ed1"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:hint="Start Value"-->
+    <!--        android:textAlignment="center"-->
+
+    <!--        />-->
+    <EditText
+        android:id="@+id/ed2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="কত তলা পিরামিড দেখতে চান? "
+        android:textAlignment="center"
+
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:textSize="20sp"
+        />
+
+
+
+
+    <!--    Scroll view for tvDisplay starts -->
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tvDisplay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+    <!--============  ScrollView for TvDisplay Ends ============== -->
+
+
+</LinearLayout>
